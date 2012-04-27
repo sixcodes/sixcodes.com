@@ -1,0 +1,115 @@
+/*********************************************************/
+/* GENERAL                                               */
+/*********************************************************/
+
+#ws_upgradeRequired
+{
+	font-size: 13px;
+	font-family: Verdana;
+}
+
+#ws_upgradeRequired h2
+{
+	margin: 0.2em 0 0.6em 0;
+	font-weight: bold;
+	border: 0;
+	color: #333;
+	font-size: 100%;
+}
+
+#ws_upgradeRequired #note
+{
+	font-size: 85%;
+	color: #444;
+}
+
+#ws_upgradeRequired input[type=submit]
+{
+	margin: 1em 0 0.5em 0;
+}
+
+#ws_upgradeRequired div#colorButtonContainer
+{
+	text-align: center;
+	padding: 10px;
+	margin-top: 0.8em;
+}
+
+#ws_upgradeRequired div.colorButton
+{
+	border: 2px solid #396322;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+	padding: 8px 15px 8px 15px;
+	margin: 5px auto 8px auto;
+	background: -moz-linear-gradient(top,  #bad965, #99c81d);
+	background: -webkit-gradient(linear, left top, left bottom, from(#bad965), to(#99c81d));
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	font-weight: bold;
+	font-size: 105%;
+	color: black;
+	width: 15em;
+	opacity: 0.9;
+	text-align: center;
+}
+
+#ws_upgradeRequired a:hover div.colorButton
+{
+	opacity: 1;
+}
+
+#ws_upgradeRequired a.colorButton
+{
+	text-decoration: none;
+}
+
+#ws_upgradeRequired .colorButton .note
+{
+	font-size: 70%;
+	color: #333;
+}
+
+#ws_info {
+	font-size: 13px;
+	font-family: Verdana;
+	color: #222;
+	
+	padding: 2px 0 10px 0;
+}
+#ws_info button {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #222;
+}
+
+#ws_info .ws_info_icon {
+	float: left;
+	width: 35px;
+	line-height: 35px;
+	
+	margin: 0 20px 0 3px;
+	
+	color: #b2b2b2;
+	font-size: 2.7em;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	border: 0.1em solid #b2b2b2;
+	text-align: center;
+	
+	border-radius: 50em;
+	-moz-border-radius: 50em;
+	-webkit-border-radius: 50em;
+}
+#ws_info .ws_content {
+	float: left;
+	width: 455px;
+	line-height: 1.4em;
+}
+#ws_info .ws_clear {
+	clear: both;
+}
