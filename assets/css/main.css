@@ -124,14 +124,14 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: #eee;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
 }
 
 #f h3 {
-	color: white;
+	color: #000;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
@@ -145,7 +145,7 @@ a:after {
 
 #f p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: #000;
 }
 
 #f img {
