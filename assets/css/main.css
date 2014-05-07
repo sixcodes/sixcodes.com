@@ -104,6 +104,7 @@ a:after {
 	color: white;
 	font-size: 70px;
 	font-weight: 700;
+	/* text-shadow: -2px 4px 127px #fff; */
 }
 
 #headerwrap h3 {
@@ -112,6 +113,8 @@ a:after {
 	font-weight: 100;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
+	text-shadow: -2px 4px 10px #fff;
+	/* background: #fff000; */
 }
 
 #headerwrap .logo {
